@@ -1,5 +1,3 @@
 
-(function(){
-    pq = {};
-    pq.kek = 'lol';
-})();
+pq = {};
+pq.kek = 'lol';
