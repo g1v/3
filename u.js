@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Auto gift farming
-// @version      0-0-2-7
+// @version      0-0-3-0
 // @author       Sir TE5T
 // @updateURL    https://raw.githubusercontent.com/g1v/3/master/v.js
 // @downloadURL  https://raw.githubusercontent.com/g1v/3/master/u.js
