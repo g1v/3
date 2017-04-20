@@ -4,4 +4,3 @@ pq = {
     set: function(a) {$('.nav__points').html(a);}
   }
 };
-console.log('pqaaa');
