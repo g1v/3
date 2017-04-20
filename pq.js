@@ -4,3 +4,4 @@ pq = {
     set: function(a) {$('.nav__points').html(a);}
   }
 };
+pqaaa = 'okay u win';
