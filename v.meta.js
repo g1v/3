@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         Auto gift farming
-// @version      3.1
+// @version      3.5
 // @author       Sir TE5T
 // @updateURL    https://raw.githubusercontent.com/g1v/3/master/v.meta.js
 // @downloadURL  https://raw.githubusercontent.com/g1v/3/master/u.user.js
 // @require      http://code.jquery.com/jquery-3.2.1.min.js
-// @match        www.steamgifts.com/*
+// @match        http*://www.steamgifts.com/*
+// @match        http*://www.indiegala.com/*
 // ==/UserScript==
