@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Auto gift farming
-// @version      5.0
+// @version      5.1
 // @author       Sir TE5T
 // @updateURL    https://raw.githubusercontent.com/g1v/3/master/v.meta.js
 // @downloadURL  https://raw.githubusercontent.com/g1v/3/master/u.user.js
@@ -18,9 +18,9 @@ var pq = {
         },
         remove:   function() {
             $('.giveaway__row-outer-wrap').each(function () {
-                if ($('.giveaway__column--contributor-level.giveaway__column--contributor-level--negative', this)) {
+                if ($('.giveaway__column--contributor-level.giveaway__column--contributor-level--negative', this)[0]) {
                     this.remove();
-                } else if ($('.giveaway__row-inner-wrap.is-faded', this)) {
+                } else if ($('.giveaway__row-inner-wrap.is-faded', this)[0]) {
                     this.remove();
                 } else {
                     var a = this;
