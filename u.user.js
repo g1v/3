@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Auto gift farming
-// @version      5.1
+// @version      5.2
 // @author       Sir TE5T
 // @updateURL    https://raw.githubusercontent.com/g1v/3/master/v.meta.js
 // @downloadURL  https://raw.githubusercontent.com/g1v/3/master/u.user.js
@@ -115,9 +115,9 @@ var pq = {
         },
         startup:  function() {
             $('.cover-cont')[1].remove();
-            pq.remove();
-            setTimeout(pq.join, 1000  );
-            setTimeout(pq.ref , 120000);
+            setTimeout(pq.remove, 2000  );
+            setTimeout(pq.join  , 2100  );
+            setTimeout(pq.ref   , 120000);
         }
     }
 };
