@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Auto gift farming
-// @version      5.2
+// @version      5.3
 // @author       Sir TE5T
 // @updateURL    https://raw.githubusercontent.com/g1v/3/master/v.meta.js
 // @downloadURL  https://raw.githubusercontent.com/g1v/3/master/u.user.js
@@ -71,7 +71,7 @@ var pq = {
     indiegala: {
         regex:    /giveaways/,
         coins:    {
-            get: function( ) {return parseInt($('.account-row.account-galamoney').text().match(/\d+(?= Gala)/));},
+            get: function( ) {return parseInt($('.account-row.account-galamoney').text().match(/\d+/));},
             set: function(a) {$('.account-row.account-galamoney').text(a);}
         },
         level:    {
